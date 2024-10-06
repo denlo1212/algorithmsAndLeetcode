@@ -16,5 +16,5 @@ class Solution:
 
 
 solution = Solution()
-anagrams = solution.groupAnagrams(["act", "pots", "tops", "cat", "stop", "hat"])
-print(anagrams)
+result = solution.groupAnagrams(["act", "pots", "tops", "cat", "stop", "hat"])
+print(result)
