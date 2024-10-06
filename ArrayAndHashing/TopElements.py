@@ -12,6 +12,7 @@ class Solution:
         for number, counter in count.items():
             frequentie[counter].append(number)
 
+        print(frequentie)
         result = []
         for index in range(len(frequentie) - 1, 0, -1):
             for number in frequentie[index]:
