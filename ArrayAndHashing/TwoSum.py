@@ -4,6 +4,7 @@ from typing import List
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         prevMap = {}  # val : index
+        # enumerate until you get a match thats already in the hashMap
 
         for index, number in enumerate(nums):
             difference = target - number
